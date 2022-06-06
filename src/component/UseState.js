@@ -26,7 +26,7 @@ function changeName(){
         <div>{name}</div>
         {
           state?
-          <div style={{backgroundColor:"red"}}>This is Mondat</div>:<></>
+          <div style={{backgroundColor:"red"}}>This is Monday</div>:<></>
         }
       </div>
   )

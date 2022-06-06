@@ -21,7 +21,10 @@ function decrement(){
       <button onClick={increment}>+</button>
       <div>{test}</div>
       <button onClick={decrement}>-</button>
-       
+       <br/>
+       <br/>
+       <br/>
+       <br/>
       <UseStates/>
     </div>
   );
