@@ -1,5 +1,6 @@
 import React ,{useState}from "react";
 import "./style.css";
+import UseStates from './component/UseState'
 
 export default function App() {
   let [test,setTest] = useState(0);
@@ -20,6 +21,8 @@ function decrement(){
       <button onClick={increment}>+</button>
       <div>{test}</div>
       <button onClick={decrement}>-</button>
+       
+      <UseStates/>
     </div>
   );
 }
