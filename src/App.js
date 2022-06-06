@@ -3,6 +3,9 @@ import "./style.css";
 
 export default function App() {
   let [test,setTest] = useState(0);
+  // test is a state variable
+  // setTest is a function which will manage my values of state variable
+  // useState(' ') ==> deafult value of your state variable
 
 function increment(){
   setTest(test+1);
